@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-content">
-        <h1>Welcome to Contacts App</h1>
+        <h4>Welcome to Contacts App</h4>
         <p>Manage your contacts easily.</p>
 
         <div className="home-buttons">
