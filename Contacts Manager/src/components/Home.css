@@ -1,0 +1,86 @@
+/* Full page background */
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+/* Card box */
+.home-content {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.home-content h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Description */
+.home-content p {
+  margin-bottom: 25px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Buttons container */
+.home-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Common button */
+.btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Login button */
+.login-btn {
+  background: #667eea;
+  color: white;
+}
+
+.login-btn:hover {
+  background: #5a67d8;
+}
+
+/* Register button */
+.register-btn {
+  background: #48bb78;
+  color: white;
+}
+
+.register-btn:hover {
+  background: #38a169;
+}
+
+/* Small animation */
+.home-content {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
